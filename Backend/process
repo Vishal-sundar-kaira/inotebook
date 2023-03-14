@@ -1,0 +1,17 @@
+1.use npx create-react-app to make react app.
+2.create backend folder and inside it do npm init.
+3.install npm i express and npm i mongoose.
+4.connect mongoose using mongo uri from compass(use mongoose.set('strictQuery', false);).
+5.connect express directly from website of express.
+6.start building different folders like routes models
+7.give schema in models file.
+8.use middleware to make json work.
+9.connect to monogdb by giving routes and then request send.
+10.use thunder client to create collection and send request.
+11.Add schema and requirements for password name and all database then catch errors if it does not match necessity.
+12.password hash:-normally our database can get hack so to prevent user data leak we dont directly save password in database we use hash which give us some hash string of our password so hash string get stored in databse and with hashstirng you cant get password but with that same password we can get same hash string.But some time hacker can make hashtable with dictionary and calculate common password with that hastable so for that we use salt and pepper in which we add some extra string with password and then calculate its hash string.now hacker will get password with salt added which is not real password in this way we can save db from hacking we can do all this directly using (bcryptjs).
+13.create different link and endpoints as per use (jwt) is use to give authentication token which help us to access user data.
+
+14.whenever you need to add something in database remember we use  create methhod or save notes method.
+15.Whenever we need to acesss something from databse we use findOne and different keywords for taking data.
+16.we normally use get method to get data from db and post to send data and put to do upadate in data.
